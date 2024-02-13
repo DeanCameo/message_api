@@ -77,17 +77,27 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'api message',
+#         'USER': 'root',
+#         'PASSWORD': 'Cameo1361998',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'api message',
-        'USER': 'root',
-        'PASSWORD': 'Cameo1361998',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'railway',  # Use the database name provided by Railway
+        'USER': 'root',  # Use the database user provided by Railway
+        'PASSWORD': 'H5-4gg3B44b5C-36DED5E5CCe4cdAHh4',  # Use the database password provided by Railway
+        'HOST': 'viaduct.proxy.rlwy.net',  # Use the database host provided by Railway
+        'PORT': '30929',  # Use the database port provided by Railway
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators

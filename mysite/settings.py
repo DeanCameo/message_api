@@ -91,11 +91,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',  # Use the database name provided by Railway
-        'USER': 'root',  # Use the database user provided by Railway
-        'PASSWORD': 'H5-4gg3B44b5C-36DED5E5CCe4cdAHh4',  # Use the database password provided by Railway
-        'HOST': 'viaduct.proxy.rlwy.net',  # Use the database host provided by Railway
-        'PORT': '30929',  # Use the database port provided by Railway
+        'NAME': 'railway',  # database NAME by Railway
+        'USER': 'root',  # database USER by Railway
+        'PASSWORD': 'H5-4gg3B44b5C-36DED5E5CCe4cdAHh4',  # database PASSWORD by Railway
+        'HOST': 'viaduct.proxy.rlwy.net',  # database HOST by Railway
+        'PORT': '30929',  # database PORT by Railway
     }
 }
 
